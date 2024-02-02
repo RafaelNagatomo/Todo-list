@@ -2,7 +2,7 @@ body {
   font-family: 'Courier New', Courier, monospace;
   background-color: #f4f4f4;
   padding: 30px;
-  color: #333;
+  color: #464646;
   background-image: url("./img/wallpaperflare.com_wallpaper.jpg");
   background-size: cover; 
   /* filter: blur(4px); */
@@ -34,14 +34,14 @@ input {
 }
 
 button {
-  background-color: #333974;
+  background-color: #277bcf;
   color: #ffffff;
-  padding: 5px 10px;
+  padding: 8px 15px;
   margin-right: 10px;
   border: none;
   border-radius: 3px;
   cursor: pointer;
-  opacity: .8;
+  opacity: .7;
   transition: .3s;
 }
 
@@ -52,7 +52,7 @@ button:hover {
 .todo-list {
   margin-bottom: 20px;
   padding-bottom: 20px;
-  border-bottom: 1px solid #555;
+  border-bottom: 5px solid #626262;
 }
 
 .todo{
@@ -67,11 +67,11 @@ button:hover {
 }
 
 .complete {
-  background-color: #5cb85c;
+  background-color: #258d25;
 }
 
 .remove {
-  background-color: #d9534f;
+  background-color: #d953af;
 }
 
 .todo-form {
@@ -88,7 +88,7 @@ input, select {
 }
 
 .filter, .search {
-  border-bottom: 1px solid #555;
+  border-bottom: 5px solid #626262;
   margin-bottom: 20px;
   padding-bottom: 20px;
 }

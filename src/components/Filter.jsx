@@ -4,7 +4,7 @@ const Filter = ({ filter, setFilter, setSort }) => {
         <h2>Filtrar:</h2>
         <div className="filter-options">
             <div>
-                <p>Status:</p>
+                <p>Estado:</p>
                 <select value={filter} onChange={(e) => setFilter(e.target.value)}>
                     <option value="All">Todas</option>
                     <option value="Completed">Completas</option>
@@ -12,9 +12,9 @@ const Filter = ({ filter, setFilter, setSort }) => {
                 </select>
             </div>
             <div>
-                <p>Ordem alfabética</p>
-                <button onClick={() => setSort("Asc")}>Asc</button>
-                <button onClick={() => setSort("Desc")}>Desc</button>
+                <p>Ordenação:</p>
+                <button onClick={() => setSort("Asc")}>(A-Z)</button>
+                <button onClick={() => setSort("Desc")}>(Z-A)</button>
             </div>
         </div>
     </div>

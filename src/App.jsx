@@ -67,6 +67,7 @@ function App() {
       <Search search={search} setSearch={setSearch} />
       <Filter filter={filter} setFilter={setFilter} setSort={setSort} />
       <div className="todo-list">
+      <h2>Tarefas:</h2>
         {todos
         .filter((todo) => filter === "All" ? true : filter === "Completed" ? todo.isCompleted : !todo.isCompleted)
         .filter((todo) => todo.text.toLowerCase().includes(search.toLowerCase()))
@@ -74,6 +75,7 @@ function App() {
         .map((todo) => (
           <Todo key={todo.id} todo={todo} removeTodo={removeTodo} completeTodo={completeTodo} />
         ))}
+       
       </div>
       <TodoForm addTodo={addTodo} />
     </div>
