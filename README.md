@@ -1,4 +1,4 @@
-##To Do List (Lista de Tarefas)
+<h2>To Do List (Lista de Tarefas)</h2>
 
 Projeto de lista de tarefas (To Do List) criado em React.Js a fim de aprimorar meus conhecimentos na biblioteca.
 Apresenta funcionalidades úteis como:
@@ -10,12 +10,12 @@ Apresenta funcionalidades úteis como:
 - Filtro por ordenação alfabética
 - Pesquisa de tarefas
 
-##Tecnologias usadas:
+<h2>Tecnologias usadas:</h2>
 
 - React.Js
 - Vite
 - CSS
 
-##ScreenShot
+<h2>ScreenShot:</h2>
 
 ![imagem-todolist](/src/img/image.png)
